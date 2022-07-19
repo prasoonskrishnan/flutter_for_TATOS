@@ -1,0 +1,158 @@
+DAY 1
+
+
+
+
+under standing dart language
+with help of youtube video and   
+source:   https://dartpad.dartlang.org/?
+
+
+
+
+void main(){
+  
+  // Data type
+  
+  String className = "flutter tutorial";  * " String " - to writting string 
+  
+  
+  
+  int studentName = 25;                    * " int "-  to write integers  
+  
+  
+  double averageNum = 93.52;               * " double " - to write floatting\ decimal values 
+  
+ 
+  
+  num avilableDays = 36.3;                 * " num " -to write both decimal and integer numbers
+  
+  num teamDays = 33;                       *                 "
+  
+  
+  
+ 
+  
+  bool activeMember = true;                * " "it gives 2 type of values like True or False 
+  
+  print (activeMember);
+  
+  var mamma = "flutter";                  * " var " - it is a variable data type which can be write string,integer,float,boolien
+  var nandhu = 55;
+  var unnikuttan = 254.7;
+  var karichi = true;
+  
+  
+  dynamic schoolname = "MMRHSS";          * " dynamic " - it is a variable data type which can be write string,integer,float,boolien
+  
+  
+  List<String> names = ["prasoon","unnikuttan"];    * " List "  
+  print(names);                                     * " to print all the stingr in the list "
+  print(names[0])                                   * " to print the selected index from the list "
+  
+  List<int> prasoon = [12,56,32];
+  
+  print(prasoon);
+  
+  Map<String,int> doB = {                           * " Map "  dictionary like data type,withe keys and value
+    "prasoon" : 1997,
+    "unnikuttan": 1996
+      
+  };
+ print(doB["prasoon"]);                             * " printing with the help of key "
+ print(doB);
+  
+  
+  String className = "PRASoon s krishnan";
+  
+  print(className.isEmpty);                          * properties " .isEmpty " - to check the string null or not.
+  
+  String classame = "";
+  print(classame.isEmpty);
+  print(className.length);                           * properties " .length " - to counting the space of string 
+  
+  print(className.toLowerCase());                  * function " .toLowerCase() " - to convert all the string data type in  lowercase 
+  print(className.toUpperCase());                  * function  " .toUpperCase() " - viseversa
+  
+  int numbers = 54;
+  print(numbers.isEven);                           * properties " .isEven " -to check the integer even or not
+  print(numbers.isOdd);                            * properties " .isOdd " -to check the integer odd or not
+  print(numbers.isNegative);                       * properties " .isNegative " -to check the integer negative or not
+  print(numbers.round());                          * function " .round() " -  to round off value from decimal to integer   
+  
+  
+  List <String> champions =[                       
+    "prasoon",
+    "nandhu",
+    "oochi"
+  ];
+  print(champions.first);                        * properties  " .first " - to print first string from the list
+  print(champions.isEmpty);                      * properties " .isEmpty " - to check the string null or not
+  print(champions.isNotEmpty);                   * properties " .isNotEmpty " - to check the string null or not.
+  print(champions.length);                       * properties " .length " - to counting the space of string 
+  print(champions.last);                         * properties  " .last " - to print last string from the list
+  champions.add("unnikuttan");                   * properties " .add() "   - to add a string
+  print(champions);
+  champions.insert(1,"lijo");                    * properties " .insert()  " to add a string in a specific index
+  print(champions);
+
+  List <String> champions =[
+    "prasoon",
+    "nandhu",
+    "lijo",
+    "oochi"
+  ];
+  print(champions);
+
+  champions.remove("lijo");                     * function " .remove() " - to remove a string data from the list
+  print(champions);
+
+  champions.removeAt(0);                        * function " .removeAt() " - to remove a string data from the list,at specific index
+
+  print(champions);
+
+  Map <String,dynamic> details ={
+    
+    "name": "PRASOON",
+    "ROLL NO": 37,
+    "MONEY": 32.54,
+    "PHONE": true
+        
+  };
+  print(details);
+  print(details.length);
+  print(details.isEmpty);
+  print(details.isNotEmpty);
+  print(details.keys);                            *  properties  " .keys " - print all the keys from a map
+  print(details.values);                          *  properties  " .values " - print all the values from a map
+  details.addAll({"email":"mmmP@gmail.com"});     *  properties  " .addAll()  " - add 1 or more, keys and values
+  print(details);  
+  details.clear();                                *  function  " .clear()  " - to delete all the keys and value 
+  print(details);
+  print(details.isEmpty);
+  details.remove("email");                      *  function " .remove() " to remove the key and value by giving the key    
+  print(details);
+  
+  
+  
+  decision IF or ELSe
+
+  num mark =30;
+  string grade =  "";
+  
+  if(mark>=90){
+    grade="A+"; 
+  }else if(mark>=80 && mark<=90){
+    grade="A";
+  }else if(mark>=70 && mark<=80){
+    grade="c";
+    
+  }else {
+   grade="fail";
+  
+ print(grade);
+  
+  
+  
+  
+}

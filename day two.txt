@@ -1,0 +1,204 @@
+//while loop
+void main() {
+  num number =1 ;
+  while (number<=20) {
+    print (number);
+    
+    number = number + 1;
+
+  }
+  
+}
+
+
+
+//while loop
+void main() {
+  List <String> friends = [
+    "prasoon",
+    "nandhu",
+    "oochi",
+    "unni"
+  ];
+  int count =0;
+  
+  while (count<friends.length ){
+    print (friends[count]);
+    count = count +1 ;
+  }
+}
+
+
+
+
+
+//for loop
+void main() {
+  for (int count = 0; count<10; count= count+1){
+    print(count);
+  }
+}
+
+
+
+
+
+
+//nested loop
+void main() {
+  List <String> friends = [
+    "prasoon",
+    "nandhu",
+    "oochi",
+    "unni"
+  ];
+  int count = 2;
+  
+  for(int i = 0;  i < count ;  i = i + 1){
+    
+    for(int j = 0; j < friends.length; j = j + 1 ){
+      
+      print(friends[j]);
+    }
+    print ("------");
+  }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+//Function execution
+
+
+void main() {
+  pettu();
+}
+void pettu(){
+  String value = "PRASOON";
+    print (value);
+}
+
+
+
+
+//Function execution
+//  - how to acsess function or call function
+void main(){
+  String callName = google();
+  print (callName);
+  
+}
+
+String google (){
+  String name = " jee boomba";
+  return name;
+}
+
+
+
+
+
+
+// parameter or arguments  using function
+// how can we create afunction using return type
+void main(){ 
+  String name = "prasoon";
+  String bad = call(name);
+  print (bad);
+  
+  
+}
+String call(String name){
+  String naughty = name + ".s";
+  return naughty;
+}
+
+
+
+
+
+
+// parameter or arguments  using function
+void main(){
+  String name ="prasoon";
+  naughty (name,10);
+  
+}
+void  naughty (String name, int count){
+  for (int i = 0; i<count; i=i+1){
+    print(name);
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+// parameter or arguments  using function
+void main(){
+  List<Map<String,dynamic>> studentlist = [
+    {
+      "NAME" : "PRASOON",
+     "STUDING": "10",
+     "MARK": [10,20,30,40]
+    
+    },
+    {
+      "NAME" : "NANDHU",
+     "STUDING": "10",
+     "MARK": [10,20,30,40]
+    
+    },
+    {
+      "NAME" : "UNNI",
+     "STUDING": "10",
+     "MARK": [10,20,30,40]
+    
+    }
+  ];
+  
+  studentcard(studentlist);
+  
+}
+void studentcard ( List<Map<String,dynamic>> studentlist){
+  for (int i = 0; i < studentlist.length; i = i + 1){
+    num findMarks =totalmark(studentlist[i]["MARK"]);
+    print ("STUDENT CARD");
+    print("Name : " + studentlist[i]["NAME"]);
+    print("Studing : " + studentlist[i]["STUDING"]);
+    print("Total mark : " + findMarks.toString());
+    print("status : " + passOrFail(findMarks));
+    print("-----------------------");
+  }
+}
+
+num totalmark (List<num> mark){
+  num total = mark[0]+mark[1]+mark[2]+mark[3];
+  return total;
+}
+
+
+String passOrFail ( num findMarks){
+  String status = "" ;
+  if (findMarks<=100){
+    status =" PASS ";
+  } else { 
+    status = " FAIL ";
+  }
+  return status;
+  
+}
+

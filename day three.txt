@@ -1,0 +1,6 @@
+installing 
+
+
+     * vs code
+     *android studio
+     *flutter

@@ -1,0 +1,46 @@
+exploring  android studio
+
+
+
+
+.
+.
+.
+.
+.
+.
+
+
+
+
+KEEP OCCURING 
+
+
+BUILD FAILED in 10s
+Exception: Gradle task assembleDebug failed with exit code 1 - (error)
+
+
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+
+
+
+
+
+
+Respcted sir,
+
+Sorry to disappoint you,  by without achieving the task. 
+As a person it is also a great experience  to know the skills that I required to achieve the task, 
+therefore  thank you for the opportunity that  you gave . By time i learned  a new language  DART, 
+I am also like the language so maybe in future  I will up skill my self
+And once again thank you for this wonderful opportunity
